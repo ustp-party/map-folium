@@ -16,7 +16,7 @@
 <meta content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
 <style>
-                #map_458e3cfddad6bc3639849db7b65befab {
+                #map_31e74129ca8292fe177d3d901cfe2a9a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -90,15 +90,15 @@
                     </style>
 <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" rel="stylesheet"/>
-<title>USTP-CDO Campus Map</title><link href="https://raw.githubusercontent.com/ustp-party/map-folium/refs/heads/master/public/ustp.map.party-64x64.png" rel="icon" type="image/png"/></head>
+<title>USTP-CDO Campus Map</title><link href="./public/ustp.map.party-64x64.png" rel="icon" type="image/png"/></head>
 <body>
-<div class="folium-map" id="map_458e3cfddad6bc3639849db7b65befab"></div>
+<div class="folium-map" id="map_31e74129ca8292fe177d3d901cfe2a9a"></div>
 </body>
 <script>
     
     
-            var map_458e3cfddad6bc3639849db7b65befab = L.map(
-                "map_458e3cfddad6bc3639849db7b65befab",
+            var map_31e74129ca8292fe177d3d901cfe2a9a = L.map(
+                "map_31e74129ca8292fe177d3d901cfe2a9a",
                 {
                     center: [8.484975, 124.656662],
                     crs: L.CRS.EPSG3857,
@@ -115,7 +115,7 @@
 
         
     
-            var tile_layer_747b429ef9cf4cc1d650ec0939b9add7 = L.tileLayer(
+            var tile_layer_874cc0ce801c87ed576572a1b43192fe = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -132,10 +132,10 @@
             );
         
     
-            tile_layer_747b429ef9cf4cc1d650ec0939b9add7.addTo(map_458e3cfddad6bc3639849db7b65befab);
+            tile_layer_874cc0ce801c87ed576572a1b43192fe.addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
         
     
-            var tile_layer_9bf34c746e5262dceb13884e5e8950c3 = L.tileLayer(
+            var tile_layer_c0041a11beecd3a7a3067918264655f2 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -152,10 +152,10 @@
             );
         
     
-            tile_layer_9bf34c746e5262dceb13884e5e8950c3.addTo(map_458e3cfddad6bc3639849db7b65befab);
+            tile_layer_c0041a11beecd3a7a3067918264655f2.addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
         
     
-            var mouse_position_ce91b70148c545f95e1890bb1ee45f52 = new L.Control.MousePosition(
+            var mouse_position_8c197f8ba5577e3f7b2af6f8cb450d31 = new L.Control.MousePosition(
                 {
   "position": "bottomleft",
   "separator": " | ",
@@ -165,37 +165,37 @@
   "prefix": "Coordinates:",
 }
             );
-            mouse_position_ce91b70148c545f95e1890bb1ee45f52.options["latFormatter"] =
+            mouse_position_8c197f8ba5577e3f7b2af6f8cb450d31.options["latFormatter"] =
                 undefined;
-            mouse_position_ce91b70148c545f95e1890bb1ee45f52.options["lngFormatter"] =
+            mouse_position_8c197f8ba5577e3f7b2af6f8cb450d31.options["lngFormatter"] =
                 undefined;
-            map_458e3cfddad6bc3639849db7b65befab.addControl(mouse_position_ce91b70148c545f95e1890bb1ee45f52);
+            map_31e74129ca8292fe177d3d901cfe2a9a.addControl(mouse_position_8c197f8ba5577e3f7b2af6f8cb450d31);
         
     
 
-        function geo_json_c4b9ac6864b384564aea72a3b9fddfaf_onEachFeature(feature, layer) {
+        function geo_json_9b0578572c133819ec8dbb91dd3a030d_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_c4b9ac6864b384564aea72a3b9fddfaf = L.geoJson(null, {
-                onEachFeature: geo_json_c4b9ac6864b384564aea72a3b9fddfaf_onEachFeature,
+        var geo_json_9b0578572c133819ec8dbb91dd3a030d = L.geoJson(null, {
+                onEachFeature: geo_json_9b0578572c133819ec8dbb91dd3a030d_onEachFeature,
             
             ...{
   "weight": 0.5,
 }
         });
 
-        function geo_json_c4b9ac6864b384564aea72a3b9fddfaf_add (data) {
-            geo_json_c4b9ac6864b384564aea72a3b9fddfaf
+        function geo_json_9b0578572c133819ec8dbb91dd3a030d_add (data) {
+            geo_json_9b0578572c133819ec8dbb91dd3a030d
                 .addData(data);
         }
-            geo_json_c4b9ac6864b384564aea72a3b9fddfaf_add({"bbox": [124.6548173, 8.4846859, 124.6585796, 8.4868322], "features": [{"bbox": [124.6563842, 8.4854855, 124.65701, 8.4861351], "geometry": {"coordinates": [[[124.6563842, 8.4859631], [124.6565783, 8.4854855], [124.6565912, 8.4854906], [124.65701, 8.4856575], [124.656816, 8.4861351], [124.6564046, 8.4859714], [124.6563842, 8.4859631]]], "type": "Polygon"}, "id": "0", "properties": {"@id": "way/190362066", "addr:housename": null, "addr:housenumber": "16", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": "community_centre", "building": "roof", "building:levels": "2", "community_centre": "events_place", "id": "way/190362066", "layer": "1", "leisure": "sports_hall", "name": "Gymnasium", "office": null, "roof:levels": null, "sport": "multi"}, "type": "Feature"}, {"bbox": [124.6555761, 8.4864561, 124.6560402, 8.4868322], "geometry": {"coordinates": [[[124.6555761, 8.4866972], [124.6556444, 8.4865109], [124.6556645, 8.4864561], [124.6557859, 8.4864996], [124.6558016, 8.4864566], [124.6559158, 8.4864975], [124.6558992, 8.4865427], [124.6560402, 8.4865932], [124.6559526, 8.4868322], [124.6555761, 8.4866972]]], "type": "Polygon"}, "id": "1", "properties": {"@id": "way/190362153", "addr:housename": null, "addr:housenumber": "23", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "university", "building:levels": "5", "community_centre": null, "id": "way/190362153", "layer": null, "leisure": null, "name": "Learning Resource Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.655251, 8.4860568, 124.6556292, 8.4866488], "geometry": {"coordinates": [[[124.6554783, 8.486523], [124.6554265, 8.4866488], [124.655251, 8.4865838], [124.6554511, 8.4860568], [124.6556292, 8.4861285], [124.6555734, 8.4862638], [124.655521, 8.4862427], [124.6554159, 8.4864978], [124.6554783, 8.486523]]], "type": "Polygon"}, "id": "2", "properties": {"@id": "way/190362204", "addr:housename": null, "addr:housenumber": "24", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/190362204", "layer": null, "leisure": null, "name": "Girl\u0027s Trade Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6562512, 8.4864009, 124.6568698, 8.4867608], "geometry": {"coordinates": [[[124.6563074, 8.4864009], [124.6568698, 8.486619], [124.6568137, 8.4867608], [124.6562512, 8.4865427], [124.6563074, 8.4864009]]], "type": "Polygon"}, "id": "3", "properties": {"@id": "way/190362205", "addr:housename": null, "addr:housenumber": "13", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "construction", "building:levels": null, "community_centre": null, "id": "way/190362205", "layer": null, "leisure": null, "name": "Sports Complex", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6576714, 8.4861439, 124.6579931, 8.4863236], "geometry": {"coordinates": [[[124.6579747, 8.4863236], [124.6576714, 8.486284], [124.65769, 8.4861439], [124.6579931, 8.4861855], [124.6579747, 8.4863236]]], "type": "Polygon"}, "id": "4", "properties": {"@id": "way/190371944", "addr:housename": null, "addr:housenumber": "7", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "university", "building:levels": null, "community_centre": null, "id": "way/190371944", "layer": null, "leisure": null, "name": "Electrical Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6570804, 8.4852576, 124.6572044, 8.485533], "geometry": {"coordinates": [[[124.6571068, 8.4852576], [124.6572044, 8.4852656], [124.657178, 8.485533], [124.6570804, 8.485525], [124.6571068, 8.4852576]]], "type": "Polygon"}, "id": "5", "properties": {"@id": "way/427545397", "addr:housename": null, "addr:housenumber": "18", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "university", "building:levels": null, "community_centre": null, "id": "way/427545397", "layer": null, "leisure": null, "name": "Culinary Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6571144, 8.4849621, 124.6572257, 8.4851998], "geometry": {"coordinates": [[[124.6571144, 8.4851934], [124.6571303, 8.4849621], [124.6572257, 8.4849685], [124.6572098, 8.4851998], [124.6571144, 8.4851934]]], "type": "Polygon"}, "id": "6", "properties": {"@id": "way/427545398", "addr:housename": null, "addr:housenumber": "19", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": "1", "community_centre": null, "id": "way/427545398", "layer": null, "leisure": null, "name": "Science Centrum", "office": null, "roof:levels": "1", "sport": null}, "type": "Feature"}, {"bbox": [124.655721, 8.4854267, 124.6563824, 8.4857917], "geometry": {"coordinates": [[[124.656324, 8.4857917], [124.6558434, 8.4856227], [124.655831, 8.4856573], [124.65574, 8.4856254], [124.6557435, 8.4856156], [124.655721, 8.4856077], [124.6557422, 8.4855487], [124.65576, 8.4855549], [124.6558061, 8.4854267], [124.6563824, 8.4856293], [124.6563735, 8.4856539], [124.656324, 8.4857917]]], "type": "Polygon"}, "id": "7", "properties": {"@id": "way/427545401", "addr:housename": null, "addr:housenumber": "41", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "university", "building:levels": null, "community_centre": null, "id": "way/427545401", "layer": null, "leisure": null, "name": "Science Complex", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6564573, 8.4860575, 124.6569736, 8.4864231], "geometry": {"coordinates": [[[124.6564573, 8.4862715], [124.6564809, 8.4862123], [124.6565035, 8.4861547], [124.6566365, 8.4862057], [124.656774, 8.4862592], [124.6568543, 8.4860575], [124.6569736, 8.486104], [124.6568465, 8.4864231], [124.6564573, 8.4862715]]], "type": "Polygon"}, "id": "8", "properties": {"@id": "way/427545403", "addr:housename": null, "addr:housenumber": "14", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "university", "building:levels": "2", "community_centre": null, "id": "way/427545403", "layer": null, "leisure": null, "name": "Senior High School Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6563597, 8.486024, 124.6566571, 8.4861951], "geometry": {"coordinates": [[[124.6564089, 8.486024], [124.6566571, 8.4861172], [124.6566298, 8.4861885], [124.6564968, 8.4861375], [124.6564742, 8.4861951], [124.6563597, 8.4861521], [124.6564089, 8.486024]]], "type": "Polygon"}, "id": "9", "properties": {"@id": "way/427545405", "addr:housename": null, "addr:housenumber": "15", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/427545405", "layer": null, "leisure": null, "name": "Gym Lobby", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6571453, 8.4859119, 124.6576675, 8.486477], "geometry": {"coordinates": [[[124.657606, 8.4860261], [124.6576675, 8.4860495], [124.657636, 8.4861328], [124.6575765, 8.4862063], [124.657525, 8.4862636], [124.6574661, 8.4863179], [124.657411, 8.4863604], [124.6573484, 8.4864045], [124.6572742, 8.4864461], [124.657203, 8.486477], [124.6571453, 8.4863259], [124.6572121, 8.486301], [124.6572731, 8.4862712], [124.6572901, 8.4862887], [124.6573563, 8.4862509], [124.6574197, 8.4862088], [124.6574701, 8.4861575], [124.6575216, 8.4860914], [124.657556, 8.4860293], [124.6575363, 8.4860212], [124.6575251, 8.4860105], [124.6575156, 8.4859934], [124.6575138, 8.485979], [124.6575143, 8.4859642], [124.6575193, 8.4859477], [124.6575327, 8.4859307], [124.657548, 8.4859182], [124.6575692, 8.4859119], [124.6575927, 8.4859128], [124.657611, 8.4859221], [124.6576273, 8.4859367], [124.6576358, 8.4859472], [124.6576394, 8.4859713], [124.6576361, 8.4859939], [124.6576263, 8.4860075], [124.6576183, 8.4860144], [124.6576089, 8.4860201], [124.657606, 8.4860261]]], "type": "Polygon"}, "id": "10", "properties": {"@id": "way/427545406", "addr:housename": null, "addr:housenumber": "9", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": "4", "community_centre": null, "id": "way/427545406", "layer": null, "leisure": null, "name": "Information and Communications Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6571786, 8.4858928, 124.6574286, 8.4860976], "geometry": {"coordinates": [[[124.6574268, 8.4859733], [124.6572357, 8.4860976], [124.6572136, 8.4860661], [124.6572021, 8.4860722], [124.6571786, 8.486038], [124.6572009, 8.4860197], [124.6571976, 8.4860109], [124.6572189, 8.4859917], [124.6572499, 8.485968], [124.6572852, 8.4859435], [124.6573286, 8.4859217], [124.6573603, 8.4859084], [124.6574012, 8.4858928], [124.6574286, 8.4859348], [124.65741, 8.4859462], [124.6574268, 8.4859733]]], "type": "Polygon"}, "id": "11", "properties": {"@id": "way/427545407", "addr:housename": null, "addr:housenumber": "10", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "office", "building:levels": null, "community_centre": null, "id": "way/427545407", "layer": null, "leisure": null, "name": "Administration Building", "office": "educational_institution", "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6572289, 8.4856155, 124.6580329, 8.4858397], "geometry": {"coordinates": [[[124.6572289, 8.4857429], [124.6572449, 8.4856155], [124.6580329, 8.4857123], [124.6580169, 8.4858397], [124.6572289, 8.4857429]]], "type": "Polygon"}, "id": "12", "properties": {"@id": "way/427545408", "addr:housename": null, "addr:housenumber": "5", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427545408", "layer": null, "leisure": null, "name": "Old Civil Engineering Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6584179, 8.4861772, 124.6585796, 8.486296], "geometry": {"coordinates": [[[124.6584179, 8.4862709], [124.6584345, 8.4861772], [124.6585796, 8.4862024], [124.658563, 8.486296], [124.6584179, 8.4862709]]], "type": "Polygon"}, "id": "13", "properties": {"@id": "way/427545410", "addr:housename": null, "addr:housenumber": "1", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427545410", "layer": null, "leisure": null, "name": "Arts and Culture Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6581923, 8.4862298, 124.6583948, 8.4863592], "geometry": {"coordinates": [[[124.6582096, 8.4862298], [124.6583948, 8.486262], [124.6583776, 8.4863592], [124.6581923, 8.486327], [124.6582096, 8.4862298]]], "type": "Polygon"}, "id": "14", "properties": {"@id": "way/427545411", "addr:housename": null, "addr:housenumber": "2", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/427545411", "layer": null, "leisure": null, "name": "Guidance and Testing Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6576928, 8.4859496, 124.658016, 8.4861369], "geometry": {"coordinates": [[[124.6576928, 8.4860985], [124.6577123, 8.4859496], [124.658016, 8.4859884], [124.6579967, 8.4861369], [124.6576928, 8.4860985]]], "type": "Polygon"}, "id": "15", "properties": {"@id": "way/427545413", "addr:housename": null, "addr:housenumber": "6", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427545413", "layer": null, "leisure": null, "name": "Automotive Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.655533, 8.4855889, 124.6562721, 8.486103], "geometry": {"coordinates": [[[124.6562135, 8.486103], [124.655533, 8.4858563], [124.655632, 8.4855889], [124.6557944, 8.4856478], [124.655754, 8.4857568], [124.6562721, 8.4859446], [124.6562135, 8.486103]]], "type": "Polygon"}, "id": "16", "properties": {"@id": "way/427550449", "addr:housename": null, "addr:housenumber": "28", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": "1", "community_centre": null, "id": "way/427550449", "layer": null, "leisure": null, "name": "Old Science Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6556383, 8.486182, 124.656009, 8.4864284], "geometry": {"coordinates": [[[124.656009, 8.4863051], [124.6559609, 8.4864284], [124.6556383, 8.4863054], [124.6556864, 8.486182], [124.656009, 8.4863051]]], "type": "Polygon"}, "id": "17", "properties": {"@id": "way/427550451", "addr:housename": null, "addr:housenumber": "25", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": "2", "community_centre": null, "id": "way/427550451", "layer": null, "leisure": null, "name": "Food Innovation Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6559609, 8.4863051, 124.6562376, 8.486522], "geometry": {"coordinates": [[[124.6559609, 8.4864284], [124.656009, 8.4863051], [124.6562376, 8.4863918], [124.6561899, 8.4865149], [124.6561005, 8.4864811], [124.6560846, 8.486522], [124.6560089, 8.4864934], [124.6560247, 8.4864527], [124.6559609, 8.4864284]]], "type": "Polygon"}, "id": "18", "properties": {"@id": "way/427550452", "addr:housename": null, "addr:housenumber": "26", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "university", "building:levels": null, "community_centre": null, "id": "way/427550452", "layer": null, "leisure": null, "name": "Scholarship Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6555741, 8.4858955, 124.6557312, 8.4860014], "geometry": {"coordinates": [[[124.6557102, 8.4860014], [124.6555741, 8.4859517], [124.6555951, 8.4858955], [124.6557312, 8.4859452], [124.6557102, 8.4860014]]], "type": "Polygon"}, "id": "19", "properties": {"@id": "way/427550454", "addr:housename": null, "addr:housenumber": "27", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": "clinic", "building": "yes", "building:levels": null, "community_centre": null, "id": "way/427550454", "layer": null, "leisure": null, "name": "Old Medical Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6550484, 8.4859222, 124.6553082, 8.4863002], "geometry": {"coordinates": [[[124.6551742, 8.4863002], [124.6550484, 8.4862499], [124.6551824, 8.4859222], [124.6553082, 8.4859725], [124.6551742, 8.4863002]]], "type": "Polygon"}, "id": "20", "properties": {"@id": "way/427550455", "addr:housename": null, "addr:housenumber": "36", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550455", "layer": null, "leisure": null, "name": "Student Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6551828, 8.4856122, 124.6554323, 8.4859593], "geometry": {"coordinates": [[[124.6553058, 8.4859593], [124.6551828, 8.4859078], [124.6553093, 8.4856122], [124.6554323, 8.4856637], [124.6553058, 8.4859593]]], "type": "Polygon"}, "id": "21", "properties": {"@id": "way/427550456", "addr:housename": null, "addr:housenumber": "35", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550456", "layer": null, "leisure": null, "name": "BTED", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6548173, 8.4863006, 124.6551098, 8.4866563], "geometry": {"coordinates": [[[124.654993, 8.4866563], [124.6548173, 8.486586], [124.6549341, 8.4863006], [124.6551098, 8.4863709], [124.654993, 8.4866563]]], "type": "Polygon"}, "id": "22", "properties": {"@id": "way/427550457", "addr:housename": null, "addr:housenumber": "37", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550457", "layer": null, "leisure": null, "name": "Civil Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6548959, 8.4866354, 124.6549703, 8.4866892], "geometry": {"coordinates": [[[124.6549074, 8.4866354], [124.6549703, 8.486658], [124.6549589, 8.4866892], [124.6548959, 8.4866667], [124.6549074, 8.4866354]]], "type": "Polygon"}, "id": "23", "properties": {"@id": "way/427550458", "addr:housename": null, "addr:housenumber": "38", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550458", "layer": null, "leisure": null, "name": "Civil Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6560527, 8.4865993, 124.6561949, 8.4867469], "geometry": {"coordinates": [[[124.6560931, 8.4865993], [124.6561949, 8.4866355], [124.6561545, 8.4867469], [124.6560527, 8.4867107], [124.6560931, 8.4865993]]], "type": "Polygon"}, "id": "24", "properties": {"@id": "way/427550463", "addr:housename": null, "addr:housenumber": "12", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550463", "layer": null, "leisure": null, "name": "Printing Press", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6569359, 8.4846859, 124.6572294, 8.4849445], "geometry": {"coordinates": [[[124.6572294, 8.4846859], [124.6572289, 8.4848968], [124.6570897, 8.4849226], [124.6569618, 8.4849445], [124.6569359, 8.4848203], [124.6569598, 8.4848147], [124.6569422, 8.4847409], [124.6572294, 8.4846859]]], "type": "Polygon"}, "id": "25", "properties": {"@id": "way/427550464", "addr:housename": "CEA Building", "addr:housenumber": "42", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550464", "layer": null, "leisure": null, "name": "Engineering Complex I", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6565872, 8.4847656, 124.6569618, 8.4849764], "geometry": {"coordinates": [[[124.6569359, 8.4848203], [124.6569618, 8.4849445], [124.6569506, 8.4849764], [124.6567958, 8.4849332], [124.6566934, 8.4849046], [124.656685, 8.4849334], [124.6566483, 8.4849207], [124.6566189, 8.4849043], [124.6565966, 8.484882], [124.6565872, 8.4848566], [124.6565877, 8.4848268], [124.656595, 8.4848029], [124.6566082, 8.4847827], [124.6566279, 8.4847723], [124.6566615, 8.4847656], [124.6567048, 8.4847668], [124.6567513, 8.4847748], [124.6568398, 8.4847958], [124.6569359, 8.4848203]]], "type": "Polygon"}, "id": "26", "properties": {"@id": "way/427550465", "addr:housename": null, "addr:housenumber": "43", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550465", "layer": null, "leisure": null, "name": "Engineering Complex II", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6566513, 8.4850205, 124.6569176, 8.4854024], "geometry": {"coordinates": [[[124.6567707, 8.4850205], [124.6568915, 8.4850633], [124.6569176, 8.4850725], [124.6568904, 8.4851477], [124.6567982, 8.4854024], [124.6567669, 8.4853913], [124.6566513, 8.4853504], [124.6567707, 8.4850205]]], "type": "Polygon"}, "id": "27", "properties": {"@id": "way/427550466", "addr:housename": null, "addr:housenumber": "20", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": "food_court", "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550466", "layer": null, "leisure": null, "name": "Cafeteria", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6559643, 8.4849121, 124.6562174, 8.485135], "geometry": {"coordinates": [[[124.6559981, 8.485135], [124.6559643, 8.4849648], [124.6562174, 8.4849121], [124.6561945, 8.4849822], [124.6561317, 8.4850609], [124.6560669, 8.4850983], [124.6559981, 8.485135]]], "type": "Polygon"}, "id": "28", "properties": {"@id": "way/1182410487", "addr:housename": null, "addr:housenumber": "N/A", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/1182410487", "layer": null, "leisure": null, "name": "Unfinished Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6556559, 8.4850289, 124.6559279, 8.4851938], "geometry": {"coordinates": [[[124.6556559, 8.4851437], [124.6557754, 8.4850629], [124.6558982, 8.4850289], [124.6559279, 8.4851557], [124.6557707, 8.4851938], [124.6556742, 8.4851884], [124.6556559, 8.4851437]]], "type": "Polygon"}, "id": "29", "properties": {"@id": "way/1182410488", "addr:housename": null, "addr:housenumber": "N/A", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/1182410488", "layer": null, "leisure": null, "name": "Unfinished Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6552934, 8.4854265, 124.6555374, 8.4856309], "geometry": {"coordinates": [[[124.6552934, 8.4855315], [124.6553471, 8.4854265], [124.6555374, 8.4854934], [124.6554697, 8.4856309], [124.6552934, 8.4855315]]], "type": "Polygon"}, "id": "30", "properties": {"@id": "way/868872754", "addr:housename": null, "addr:housenumber": "N/A", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/868872754", "layer": null, "leisure": null, "name": "Unknown Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}], "type": "FeatureCollection"});
-        geo_json_c4b9ac6864b384564aea72a3b9fddfaf.setStyle(function(feature) {return feature.properties.style;});
+            geo_json_9b0578572c133819ec8dbb91dd3a030d_add({"bbox": [124.6547823, 8.4846859, 124.6585924, 8.4872026], "features": [{"bbox": [124.6563842, 8.4854855, 124.65701, 8.4861351], "geometry": {"coordinates": [[[124.6563842, 8.4859631], [124.6565783, 8.4854855], [124.6565912, 8.4854906], [124.65701, 8.4856575], [124.656816, 8.4861351], [124.6564046, 8.4859714], [124.6563842, 8.4859631]]], "type": "Polygon"}, "id": "0", "properties": {"@id": "way/190362066", "addr:city": null, "addr:housename": null, "addr:housenumber": "16", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": "community_centre", "building": "roof", "building:levels": "2", "community_centre": "events_place", "id": "way/190362066", "layer": "1", "leisure": "sports_hall", "name": "Gymnasium", "office": null, "roof:levels": null, "sport": "multi"}, "type": "Feature"}, {"bbox": [124.6555761, 8.4864561, 124.6560402, 8.4868322], "geometry": {"coordinates": [[[124.6555761, 8.4866972], [124.6556444, 8.4865109], [124.6556645, 8.4864561], [124.6557859, 8.4864996], [124.6558016, 8.4864566], [124.6559158, 8.4864975], [124.6558992, 8.4865427], [124.6560402, 8.4865932], [124.6559526, 8.4868322], [124.6555761, 8.4866972]]], "type": "Polygon"}, "id": "1", "properties": {"@id": "way/190362153", "addr:city": null, "addr:housename": null, "addr:housenumber": "23", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "university", "building:levels": "5", "community_centre": null, "id": "way/190362153", "layer": null, "leisure": null, "name": "Learning Resource Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.655251, 8.4860568, 124.6556292, 8.4866488], "geometry": {"coordinates": [[[124.6554783, 8.486523], [124.6554265, 8.4866488], [124.655251, 8.4865838], [124.6554511, 8.4860568], [124.6556292, 8.4861285], [124.6555734, 8.4862638], [124.655521, 8.4862427], [124.6554159, 8.4864978], [124.6554783, 8.486523]]], "type": "Polygon"}, "id": "2", "properties": {"@id": "way/190362204", "addr:city": null, "addr:housename": null, "addr:housenumber": "24", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": "1", "community_centre": null, "id": "way/190362204", "layer": null, "leisure": null, "name": "Girl\u0027s Trade Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6562512, 8.4864009, 124.6568698, 8.4867608], "geometry": {"coordinates": [[[124.6563074, 8.4864009], [124.6568698, 8.486619], [124.6568137, 8.4867608], [124.6562512, 8.4865427], [124.6563074, 8.4864009]]], "type": "Polygon"}, "id": "3", "properties": {"@id": "way/190362205", "addr:city": null, "addr:housename": null, "addr:housenumber": "13", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "construction", "building:levels": null, "community_centre": null, "id": "way/190362205", "layer": null, "leisure": null, "name": "Sports Complex", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6570804, 8.4852576, 124.6572044, 8.485533], "geometry": {"coordinates": [[[124.6571068, 8.4852576], [124.6572044, 8.4852656], [124.657178, 8.485533], [124.6570804, 8.485525], [124.6571068, 8.4852576]]], "type": "Polygon"}, "id": "4", "properties": {"@id": "way/427545397", "addr:city": null, "addr:housename": null, "addr:housenumber": "18", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "university", "building:levels": "1", "community_centre": null, "id": "way/427545397", "layer": null, "leisure": null, "name": "Culinary Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6571144, 8.4849621, 124.6572257, 8.4851998], "geometry": {"coordinates": [[[124.6571144, 8.4851934], [124.6571303, 8.4849621], [124.6572257, 8.4849685], [124.6572098, 8.4851998], [124.6571144, 8.4851934]]], "type": "Polygon"}, "id": "5", "properties": {"@id": "way/427545398", "addr:city": null, "addr:housename": null, "addr:housenumber": "19", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": "1", "community_centre": null, "id": "way/427545398", "layer": null, "leisure": null, "name": "Science Centrum", "office": null, "roof:levels": "1", "sport": null}, "type": "Feature"}, {"bbox": [124.655721, 8.4854267, 124.6563824, 8.4857917], "geometry": {"coordinates": [[[124.656324, 8.4857917], [124.6558434, 8.4856227], [124.655831, 8.4856573], [124.65574, 8.4856254], [124.6557435, 8.4856156], [124.655721, 8.4856077], [124.6557422, 8.4855487], [124.65576, 8.4855549], [124.6558061, 8.4854267], [124.6563824, 8.4856293], [124.6563735, 8.4856539], [124.656324, 8.4857917]]], "type": "Polygon"}, "id": "6", "properties": {"@id": "way/427545401", "addr:city": null, "addr:housename": null, "addr:housenumber": "41", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "university", "building:levels": null, "community_centre": null, "id": "way/427545401", "layer": null, "leisure": null, "name": "Science Complex", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6564573, 8.4860575, 124.6569736, 8.4864231], "geometry": {"coordinates": [[[124.6564573, 8.4862715], [124.6564809, 8.4862123], [124.6565035, 8.4861547], [124.6566365, 8.4862057], [124.656774, 8.4862592], [124.6568543, 8.4860575], [124.6569736, 8.486104], [124.6568465, 8.4864231], [124.6564573, 8.4862715]]], "type": "Polygon"}, "id": "7", "properties": {"@id": "way/427545403", "addr:city": null, "addr:housename": null, "addr:housenumber": "14", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "university", "building:levels": "2", "community_centre": null, "id": "way/427545403", "layer": null, "leisure": null, "name": "Senior High School Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6563597, 8.486024, 124.6566571, 8.4861951], "geometry": {"coordinates": [[[124.6564089, 8.486024], [124.6566571, 8.4861172], [124.6566298, 8.4861885], [124.6564968, 8.4861375], [124.6564742, 8.4861951], [124.6563597, 8.4861521], [124.6564089, 8.486024]]], "type": "Polygon"}, "id": "8", "properties": {"@id": "way/427545405", "addr:city": null, "addr:housename": null, "addr:housenumber": "15", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "yes", "building:levels": "1", "community_centre": null, "id": "way/427545405", "layer": null, "leisure": null, "name": "Gym Lobby", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6571453, 8.4859119, 124.6576675, 8.486477], "geometry": {"coordinates": [[[124.657606, 8.4860261], [124.6576675, 8.4860495], [124.657636, 8.4861328], [124.6575765, 8.4862063], [124.657525, 8.4862636], [124.6574661, 8.4863179], [124.657411, 8.4863604], [124.6573484, 8.4864045], [124.6572742, 8.4864461], [124.657203, 8.486477], [124.6571453, 8.4863259], [124.6572121, 8.486301], [124.6572731, 8.4862712], [124.6572901, 8.4862887], [124.6573563, 8.4862509], [124.6574197, 8.4862088], [124.6574701, 8.4861575], [124.6575216, 8.4860914], [124.657556, 8.4860293], [124.6575363, 8.4860212], [124.6575251, 8.4860105], [124.6575156, 8.4859934], [124.6575138, 8.485979], [124.6575143, 8.4859642], [124.6575193, 8.4859477], [124.6575327, 8.4859307], [124.657548, 8.4859182], [124.6575692, 8.4859119], [124.6575927, 8.4859128], [124.657611, 8.4859221], [124.6576273, 8.4859367], [124.6576358, 8.4859472], [124.6576394, 8.4859713], [124.6576361, 8.4859939], [124.6576263, 8.4860075], [124.6576183, 8.4860144], [124.6576089, 8.4860201], [124.657606, 8.4860261]]], "type": "Polygon"}, "id": "9", "properties": {"@id": "way/427545406", "addr:city": null, "addr:housename": null, "addr:housenumber": "9", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": "4", "community_centre": null, "id": "way/427545406", "layer": null, "leisure": null, "name": "Information and Communications Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6571786, 8.4858928, 124.6574286, 8.4860976], "geometry": {"coordinates": [[[124.6574268, 8.4859733], [124.6572357, 8.4860976], [124.6572136, 8.4860661], [124.6572021, 8.4860722], [124.6571786, 8.486038], [124.6572009, 8.4860197], [124.6571976, 8.4860109], [124.6572189, 8.4859917], [124.6572499, 8.485968], [124.6572852, 8.4859435], [124.6573286, 8.4859217], [124.6573603, 8.4859084], [124.6574012, 8.4858928], [124.6574286, 8.4859348], [124.65741, 8.4859462], [124.6574268, 8.4859733]]], "type": "Polygon"}, "id": "10", "properties": {"@id": "way/427545407", "addr:city": null, "addr:housename": null, "addr:housenumber": "10", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "office", "building:levels": null, "community_centre": null, "id": "way/427545407", "layer": null, "leisure": null, "name": "Administration Building", "office": "educational_institution", "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6572289, 8.4856155, 124.6580329, 8.4858397], "geometry": {"coordinates": [[[124.6572289, 8.4857429], [124.6572449, 8.4856155], [124.6580329, 8.4857123], [124.6580169, 8.4858397], [124.6572289, 8.4857429]]], "type": "Polygon"}, "id": "11", "properties": {"@id": "way/427545408", "addr:city": null, "addr:housename": null, "addr:housenumber": "5", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": "1", "community_centre": null, "id": "way/427545408", "layer": null, "leisure": null, "name": "Old Civil Engineering Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6584179, 8.4861772, 124.6585796, 8.486296], "geometry": {"coordinates": [[[124.6584179, 8.4862709], [124.6584345, 8.4861772], [124.6585796, 8.4862024], [124.658563, 8.486296], [124.6584179, 8.4862709]]], "type": "Polygon"}, "id": "12", "properties": {"@id": "way/427545410", "addr:city": null, "addr:housename": null, "addr:housenumber": "1", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427545410", "layer": null, "leisure": null, "name": "Arts and Culture Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6581923, 8.4862298, 124.6583948, 8.4863592], "geometry": {"coordinates": [[[124.6582096, 8.4862298], [124.6583948, 8.486262], [124.6583776, 8.4863592], [124.6581923, 8.486327], [124.6582096, 8.4862298]]], "type": "Polygon"}, "id": "13", "properties": {"@id": "way/427545411", "addr:city": null, "addr:housename": null, "addr:housenumber": "2", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/427545411", "layer": null, "leisure": null, "name": "Guidance and Testing Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.655533, 8.4855889, 124.6562721, 8.486103], "geometry": {"coordinates": [[[124.6562135, 8.486103], [124.655533, 8.4858563], [124.655632, 8.4855889], [124.6557944, 8.4856478], [124.655754, 8.4857568], [124.6562721, 8.4859446], [124.6562135, 8.486103]]], "type": "Polygon"}, "id": "14", "properties": {"@id": "way/427550449", "addr:city": null, "addr:housename": null, "addr:housenumber": "28", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": "1", "community_centre": null, "id": "way/427550449", "layer": null, "leisure": null, "name": "Old Science Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6556383, 8.486182, 124.656009, 8.4864284], "geometry": {"coordinates": [[[124.656009, 8.4863051], [124.6559609, 8.4864284], [124.6556383, 8.4863054], [124.6556864, 8.486182], [124.656009, 8.4863051]]], "type": "Polygon"}, "id": "15", "properties": {"@id": "way/427550451", "addr:city": null, "addr:housename": null, "addr:housenumber": "25", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": "2", "community_centre": null, "id": "way/427550451", "layer": null, "leisure": null, "name": "Food Innovation Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6559609, 8.4863051, 124.6562376, 8.486522], "geometry": {"coordinates": [[[124.6559609, 8.4864284], [124.656009, 8.4863051], [124.6562376, 8.4863918], [124.6561899, 8.4865149], [124.6561005, 8.4864811], [124.6560846, 8.486522], [124.6560089, 8.4864934], [124.6560247, 8.4864527], [124.6559609, 8.4864284]]], "type": "Polygon"}, "id": "16", "properties": {"@id": "way/427550452", "addr:city": null, "addr:housename": null, "addr:housenumber": "26", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "university", "building:levels": null, "community_centre": null, "id": "way/427550452", "layer": null, "leisure": null, "name": "Scholarship Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6555741, 8.4858955, 124.6557312, 8.4860014], "geometry": {"coordinates": [[[124.6557102, 8.4860014], [124.6555741, 8.4859517], [124.6555951, 8.4858955], [124.6557312, 8.4859452], [124.6557102, 8.4860014]]], "type": "Polygon"}, "id": "17", "properties": {"@id": "way/427550454", "addr:city": null, "addr:housename": null, "addr:housenumber": "27", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": "clinic", "building": "yes", "building:levels": null, "community_centre": null, "id": "way/427550454", "layer": null, "leisure": null, "name": "Old Medical Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6550484, 8.4859222, 124.6553082, 8.4863002], "geometry": {"coordinates": [[[124.6551742, 8.4863002], [124.6550484, 8.4862499], [124.6551824, 8.4859222], [124.6553082, 8.4859725], [124.6551742, 8.4863002]]], "type": "Polygon"}, "id": "18", "properties": {"@id": "way/427550455", "addr:city": null, "addr:housename": null, "addr:housenumber": "36", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550455", "layer": null, "leisure": null, "name": "Student Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6551828, 8.4856122, 124.6554323, 8.4859593], "geometry": {"coordinates": [[[124.6553058, 8.4859593], [124.6551828, 8.4859078], [124.6553093, 8.4856122], [124.6554323, 8.4856637], [124.6553058, 8.4859593]]], "type": "Polygon"}, "id": "19", "properties": {"@id": "way/427550456", "addr:city": null, "addr:housename": null, "addr:housenumber": "35", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550456", "layer": null, "leisure": null, "name": "BTED", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6548173, 8.4863006, 124.6551098, 8.4866563], "geometry": {"coordinates": [[[124.654993, 8.4866563], [124.6548173, 8.486586], [124.6549341, 8.4863006], [124.6551098, 8.4863709], [124.654993, 8.4866563]]], "type": "Polygon"}, "id": "20", "properties": {"@id": "way/427550457", "addr:city": null, "addr:housename": null, "addr:housenumber": "37", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550457", "layer": null, "leisure": null, "name": "Civil Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6548959, 8.4866354, 124.6549703, 8.4866892], "geometry": {"coordinates": [[[124.6549074, 8.4866354], [124.6549703, 8.486658], [124.6549589, 8.4866892], [124.6548959, 8.4866667], [124.6549074, 8.4866354]]], "type": "Polygon"}, "id": "21", "properties": {"@id": "way/427550458", "addr:city": null, "addr:housename": null, "addr:housenumber": "38", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550458", "layer": null, "leisure": null, "name": "Civil Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6569359, 8.4846859, 124.6572294, 8.4849445], "geometry": {"coordinates": [[[124.6572294, 8.4846859], [124.6572289, 8.4848968], [124.6570897, 8.4849226], [124.6569618, 8.4849445], [124.6569359, 8.4848203], [124.6569598, 8.4848147], [124.6569422, 8.4847409], [124.6572294, 8.4846859]]], "type": "Polygon"}, "id": "22", "properties": {"@id": "way/427550464", "addr:city": null, "addr:housename": "CEA Building", "addr:housenumber": "42", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550464", "layer": null, "leisure": null, "name": "Engineering Complex I", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6565872, 8.4847656, 124.6569618, 8.4849764], "geometry": {"coordinates": [[[124.6569359, 8.4848203], [124.6569618, 8.4849445], [124.6569506, 8.4849764], [124.6567958, 8.4849332], [124.6566934, 8.4849046], [124.656685, 8.4849334], [124.6566483, 8.4849207], [124.6566189, 8.4849043], [124.6565966, 8.484882], [124.6565872, 8.4848566], [124.6565877, 8.4848268], [124.656595, 8.4848029], [124.6566082, 8.4847827], [124.6566279, 8.4847723], [124.6566615, 8.4847656], [124.6567048, 8.4847668], [124.6567513, 8.4847748], [124.6568398, 8.4847958], [124.6569359, 8.4848203]]], "type": "Polygon"}, "id": "23", "properties": {"@id": "way/427550465", "addr:city": null, "addr:housename": null, "addr:housenumber": "43", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550465", "layer": null, "leisure": null, "name": "Engineering Complex II", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6566513, 8.4850205, 124.6569176, 8.4854024], "geometry": {"coordinates": [[[124.6567707, 8.4850205], [124.6568915, 8.4850633], [124.6569176, 8.4850725], [124.6568904, 8.4851477], [124.6567982, 8.4854024], [124.6567669, 8.4853913], [124.6566513, 8.4853504], [124.6567707, 8.4850205]]], "type": "Polygon"}, "id": "24", "properties": {"@id": "way/427550466", "addr:city": null, "addr:housename": null, "addr:housenumber": "20", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": "food_court", "building": "college", "building:levels": "1", "community_centre": null, "id": "way/427550466", "layer": null, "leisure": null, "name": "Cafeteria", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6559643, 8.4849121, 124.6562174, 8.485135], "geometry": {"coordinates": [[[124.6559981, 8.485135], [124.6559643, 8.4849648], [124.6562174, 8.4849121], [124.6561945, 8.4849822], [124.6561317, 8.4850609], [124.6560669, 8.4850983], [124.6559981, 8.485135]]], "type": "Polygon"}, "id": "25", "properties": {"@id": "way/1182410487", "addr:city": null, "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/1182410487", "layer": null, "leisure": null, "name": "Unfinished Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6556559, 8.4850289, 124.6559279, 8.4851938], "geometry": {"coordinates": [[[124.6556559, 8.4851437], [124.6557754, 8.4850629], [124.6558982, 8.4850289], [124.6559279, 8.4851557], [124.6557707, 8.4851938], [124.6556742, 8.4851884], [124.6556559, 8.4851437]]], "type": "Polygon"}, "id": "26", "properties": {"@id": "way/1182410488", "addr:city": null, "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/1182410488", "layer": null, "leisure": null, "name": "Unfinished Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6552934, 8.4854265, 124.6555374, 8.4856309], "geometry": {"coordinates": [[[124.6552934, 8.4855315], [124.6553471, 8.4854265], [124.6555374, 8.4854934], [124.6554697, 8.4856309], [124.6552934, 8.4855315]]], "type": "Polygon"}, "id": "27", "properties": {"@id": "way/868872754", "addr:city": null, "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/868872754", "layer": null, "leisure": null, "name": "Unknown Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6551396, 8.4868068, 124.6552424, 8.486908], "geometry": {"coordinates": [[[124.6551396, 8.4868863], [124.655178, 8.4868068], [124.6552424, 8.4868099], [124.655204, 8.486908], [124.6551396, 8.4868863]]], "type": "Polygon"}, "id": "28", "properties": {"@id": "way/427550459", "addr:city": null, "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550459", "layer": null, "leisure": null, "name": "Unknown Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6551845, 8.4866754, 124.6556282, 8.4869183], "geometry": {"coordinates": [[[124.655577, 8.4869183], [124.6551845, 8.4867663], [124.6552545, 8.4866754], [124.6556282, 8.4868222], [124.655577, 8.4869183]]], "type": "Polygon"}, "id": "29", "properties": {"@id": "way/427550460", "addr:city": null, "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550460", "layer": null, "leisure": null, "name": "Technology Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6547823, 8.4867066, 124.6550196, 8.4868936], "geometry": {"coordinates": [[[124.6549774, 8.4868936], [124.6547823, 8.4868264], [124.6548245, 8.4867066], [124.6550196, 8.4867738], [124.6549774, 8.4868936]]], "type": "Polygon"}, "id": "30", "properties": {"@id": "way/427550461", "addr:city": null, "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": null, "community_centre": null, "id": "way/427550461", "layer": null, "leisure": null, "name": "Unknown Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6558364, 8.4869286, 124.6559773, 8.4870415], "geometry": {"coordinates": [[[124.6558691, 8.4870415], [124.6558364, 8.4869817], [124.6559446, 8.4869286], [124.6559773, 8.4869831], [124.6558691, 8.4870415]]], "type": "Polygon"}, "id": "31", "properties": {"@id": "way/459940421", "addr:city": "Cagayan de Oro City", "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": "9000", "addr:province": "Misamis Oriental", "amenity": null, "building": "yes", "building:levels": "1", "community_centre": null, "id": "way/459940421", "layer": null, "leisure": null, "name": "Builder\u0027s hut", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6560176, 8.4870861, 124.6561385, 8.4872026], "geometry": {"coordinates": [[[124.656058, 8.4872026], [124.6560176, 8.4871297], [124.656098, 8.4870861], [124.6561385, 8.487159], [124.656058, 8.4872026]]], "type": "Polygon"}, "id": "32", "properties": {"@id": "way/459940422", "addr:city": "Cagayan de Oro City", "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": "9000", "addr:province": "Misamis Oriental", "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/459940422", "layer": null, "leisure": null, "name": "Unknown Building", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6582367, 8.4858773, 124.6583477, 8.4859407], "geometry": {"coordinates": [[[124.6582367, 8.4858797], [124.6583463, 8.4858773], [124.6583477, 8.4859392], [124.6582821, 8.4859407], [124.6582374, 8.4859125], [124.6582367, 8.4858797]]], "type": "Polygon"}, "id": "33", "properties": {"@id": "way/427545409", "addr:city": null, "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "yes", "building:levels": null, "community_centre": null, "id": "way/427545409", "layer": "-1", "leisure": null, "name": "SPED Center", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}, {"bbox": [124.6580369, 8.4859052, 124.6585924, 8.4862301], "geometry": {"coordinates": [[[124.6580369, 8.4862201], [124.6580584, 8.4859052], [124.6585924, 8.4859407], [124.658583, 8.4860793], [124.6581996, 8.4860537], [124.6581875, 8.4862301], [124.6580369, 8.4862201]]], "type": "Polygon"}, "id": "34", "properties": {"@id": "way/1136349250", "addr:city": null, "addr:housename": null, "addr:housenumber": "?", "addr:place": "University of Science and Technology of Southern Philippines", "addr:postcode": null, "addr:province": null, "amenity": null, "building": "college", "building:levels": "?", "community_centre": null, "id": "way/1136349250", "layer": null, "leisure": null, "name": "ITB BUILDING", "office": null, "roof:levels": null, "sport": null}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_9b0578572c133819ec8dbb91dd3a030d.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_c4b9ac6864b384564aea72a3b9fddfaf.bindTooltip(
+    geo_json_9b0578572c133819ec8dbb91dd3a030d.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -230,17 +230,17 @@
 });
                      
     
-            geo_json_c4b9ac6864b384564aea72a3b9fddfaf.addTo(map_458e3cfddad6bc3639849db7b65befab);
+            geo_json_9b0578572c133819ec8dbb91dd3a030d.addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
         
     
 
-        function geo_json_e9a4e13cd3161f1dcf583b82f06183bf_onEachFeature(feature, layer) {
+        function geo_json_8e66b89bef35cf54ca30057b32e04da6_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_e9a4e13cd3161f1dcf583b82f06183bf = L.geoJson(null, {
-                onEachFeature: geo_json_e9a4e13cd3161f1dcf583b82f06183bf_onEachFeature,
+        var geo_json_8e66b89bef35cf54ca30057b32e04da6 = L.geoJson(null, {
+                onEachFeature: geo_json_8e66b89bef35cf54ca30057b32e04da6_onEachFeature,
             
             ...{
   "weight": 0,
@@ -248,16 +248,16 @@
 }
         });
 
-        function geo_json_e9a4e13cd3161f1dcf583b82f06183bf_add (data) {
-            geo_json_e9a4e13cd3161f1dcf583b82f06183bf
+        function geo_json_8e66b89bef35cf54ca30057b32e04da6_add (data) {
+            geo_json_8e66b89bef35cf54ca30057b32e04da6
                 .addData(data);
         }
-            geo_json_e9a4e13cd3161f1dcf583b82f06183bf_add({"bbox": [124.65624634, 8.48479384, 124.65712812, 8.4852078], "features": [{"bbox": [124.6568904, 8.48491584, 124.65712812, 8.4852078], "geometry": {"coordinates": [[[124.6568904, 8.4851477], [124.6569176, 8.4850725], [124.6569506, 8.4849764], [124.6569618, 8.4849445], [124.6570897, 8.4849226], [124.65712812, 8.48491584], [124.65710834, 8.4851022], [124.65704061, 8.48509755], [124.6570199, 8.4852078], [124.6570173, 8.485194], [124.6570075, 8.4851872], [124.6568904, 8.4851477]]], "type": "Polygon"}, "id": "0", "properties": {"@id": "way/427550470", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": "parking", "id": "way/427550470", "vehicles": "All"}, "type": "Feature"}, {"bbox": [124.65624634, 8.48479384, 124.65646259, 8.48503355], "geometry": {"coordinates": [[[124.65627, 8.48484], [124.65624634, 8.48502792], [124.65643621, 8.48503355], [124.6564357, 8.4849805], [124.65644147, 8.48493009], [124.65646259, 8.48487206], [124.65646259, 8.48479384], [124.65627, 8.48484]]], "type": "Polygon"}, "id": "1", "properties": {"@id": "way/427550471", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": "parking", "id": null, "vehicles": "Motorcycles only"}, "type": "Feature"}], "type": "FeatureCollection"});
-        geo_json_e9a4e13cd3161f1dcf583b82f06183bf.setStyle(function(feature) {return feature.properties.style;});
+            geo_json_8e66b89bef35cf54ca30057b32e04da6_add({"bbox": [124.65624634, 8.48479384, 124.65712812, 8.4852078], "features": [{"bbox": [124.6568904, 8.48491584, 124.65712812, 8.4852078], "geometry": {"coordinates": [[[124.6568904, 8.4851477], [124.6569176, 8.4850725], [124.6569506, 8.4849764], [124.6569618, 8.4849445], [124.6570897, 8.4849226], [124.65712812, 8.48491584], [124.65710834, 8.4851022], [124.65704061, 8.48509755], [124.6570199, 8.4852078], [124.6570173, 8.485194], [124.6570075, 8.4851872], [124.6568904, 8.4851477]]], "type": "Polygon"}, "id": "0", "properties": {"@id": "way/427550470", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": "parking", "id": "way/427550470", "vehicles": "All"}, "type": "Feature"}, {"bbox": [124.65624634, 8.48479384, 124.65646259, 8.48503355], "geometry": {"coordinates": [[[124.65627, 8.48484], [124.65624634, 8.48502792], [124.65643621, 8.48503355], [124.6564357, 8.4849805], [124.65644147, 8.48493009], [124.65646259, 8.48487206], [124.65646259, 8.48479384], [124.65627, 8.48484]]], "type": "Polygon"}, "id": "1", "properties": {"@id": "way/427550471", "addr:place": "University of Science and Technology of Southern Philippines", "amenity": "parking", "id": null, "vehicles": "Motorcycles only"}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_8e66b89bef35cf54ca30057b32e04da6.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_e9a4e13cd3161f1dcf583b82f06183bf.bindTooltip(
+    geo_json_8e66b89bef35cf54ca30057b32e04da6.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -292,17 +292,69 @@
 });
                      
     
-            geo_json_e9a4e13cd3161f1dcf583b82f06183bf.addTo(map_458e3cfddad6bc3639849db7b65befab);
+            var marker_32f8c8e93ad19b45a5195847e8fe14da = L.marker(
+                [8.48504673343375, 124.65701516508821],
+                {
+}
+            ).addTo(geo_json_8e66b89bef35cf54ca30057b32e04da6);
+        
+    
+        var icon_8b010f5329a1ee5b3dea05703ea3c7f1 = L.icon({
+  "iconUrl": "data:image/png;base64,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",
+  "iconSize": [24, 24],
+});
+        
+    
+            marker_32f8c8e93ad19b45a5195847e8fe14da.bindTooltip(
+                `<div>
+                     <b>Parking Space</b><br><b>Vehicles Allowed:</b>	 All
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_32f8c8e93ad19b45a5195847e8fe14da.setIcon(icon_8b010f5329a1ee5b3dea05703ea3c7f1);
+            
+    
+            var marker_a82f36c47f38e372b4b81a2be36f9dea = L.marker(
+                [8.484922379933009, 124.65635768804525],
+                {
+}
+            ).addTo(geo_json_8e66b89bef35cf54ca30057b32e04da6);
+        
+    
+        var icon_6d76a36b0dba880fc888045f8fe05547 = L.icon({
+  "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAOJAAADiQEKNdRyAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABm1JREFUeJztm21QVNcZx3/n7gK6gLtC1EXBFRbb0UQzo1h8AZUJtI2NHZHaiVmJY4hO2nTaTpIPdZpxMomZTmd0NM5kmkQjSRUnbRSM5q2jEoWa0WDMmNYkBkNJkAWN8iYssrD35AOu3IXdNuru3kvl9+0857n3PM9/zz7nnjP3CkJRuGcRQl2GIBfJRGA8YArpbyx8wEUQbiRVmNT97C2uDuYohliK/pqNVDYDCyIcZHSRVKOoT7Dv4VNac6AAy3c9CuJFIDaasUURL4hfU+561W8YEKBw1xqE2Dn4insm23AtnEL+TDupyRbGW0ehiKETxwioUnKx7RoXrng4dKaJsqp6PrvQPtRRso6KVdvBL0D/tK8GYvw+yYlxbCvJ4sEch2ET/l+oUlJWVc/vdp6itdOr6ZE9qMoC9rs+Nve3lc1okv/hxDG8+3QeGRMS6Pb62HH4POUnGviisYNL7ddQpYxyKt8PRQjGW0cxLXUMRXMnU5LvpHhROnN/cBc/e/4DapuuXvcUcQi5BVgorlf7o/6bJCfG8dGff0rGhARO1l5mxaZqGi57dEnodnGMi+fNp3KZk5lMbdNVsv/wfuBMUOQCBWSh9qJtJVk3ks/bcHjYJg/w9bddLN5wmJrzV5iaksjWNbMDHXximYIYWO5mOGw8mOOg2+tjxaZqur2+aMccdjw9ffxyczU9vT5cC9OZlmod6BTkKiBT/e2VOVNQhGDH4fPD+pcfTP2lLkor6zApgpU5Dm3XJAWw+VsF99oBKD/REN0Io0DFyf6c8memaM1JiraVlhwPEHztHOb4c0q7yxJgDxDAFt+/ErZ1efl/o+V69U9KCHzIVYI530nc8QKYw31D396HburRud3TS2OLh7rmTt453ciBmgu4W7rDHVZIdJ8BVksM01OtPJA1ib+s+xFfv1TIy49lkzJ2dFTG112AwZhNgnUFmXy+bSn3z5oY8fEMJ4AfqyWGg+sX89hPpkZ0HMMKAGBSBC+uncMDWZMiNoahBYD+Le6u385ngm1URO4f9lUgFKKoLKh9zOgY7pls46HcKawtyCTWPPQ3scXHsmHFDB7fXhP2uHSfAR3dvXx47lt+s6OGeev/EXIJXFuQid0W/pVBdwG0nK5rYemfjuLtU4f0xZgUfj4n/LXAUAJAvwivHvkqaN+SWXeAAABlVf8JanfaE8I+liEFONsQfDs+MckS1H47GFKAUFsJGYHTaEMKcHeaNai9qTX8myRDCrBqYXpQ+8C5fvgwnABZzmQeuc8ZtO/d0+6wj2coAWY7kziwfhExpqFheftU3j7VGPYxo/YoHAqrJYYZDhuu3HRK8p1Bkwd45VAtzW3hrwFRE0Duc93ytW1dXjbu/XcYoxnAUH+BYKhS4tp6nItt1yJyf0ML4FMlj2+viUjx86N7DQhFh6eXVS8c52AECp8WwwnQ61Mprazjmb99GpEHn8HoLkBrpxd3azdfujt47xM3B2saI1LtQ6H7iZDeGLoIRoMRAfQOQG9GBNA7AL0ZEUDvAPRmRAC9A9CbEQH0DkBvAgTwn7oP07fj/yuhUgrYDLV1ebHbRjM2Pu6Wd2RHPm1GGFDBpMT+9wNbOgPfgQwQoOGyB7ttNNPTrLcswI+frbzFECPL9OsvSX9zuUtrlgrQ6m8dOtMEwPLstCiGFh2K5k4G4NCZZq35igLixpnTnup6VCkpyXfiGBcf5RAjh9OewOq8DHyq5I1/1mu73AqSKn/rbEM7ZVX1jIox8eZTuVjidD8wum3i48z8/clcYs0Krx+t44vGjoFOyTEFk7pfe8Hvd56itukqczKTOfZcPlPGD9+Z4LQnULWxgFkZSZxzd/Dka6cDHQRv9Zfr5bsrgTy/fWpKIu/8MY+pKYn09Poorayj4mQDZxva8Xj7opnDTWOJNTPDYWN5dhqr8zKINSucc3ewZOMH1F3s1HjKY5QXL/Z/NpeFVI6j+WBybEIsW9bMpnhR+rD9bM6nSl4/WscTpR/T7unVdl1DmOazb+UnA5kV7V6N5LXBN5mWamVljoP7ZtpxjIvHEmvsuuDx9lF/qYsj/2pmT1U959wdQbzEo/6vRwN/2sIyF0LuACLzVqLuyB4kv6KiuNRvCdwLVLjKUEUOyGNRjy3iiEqEeZ42eQj9iAy/2DUfn1iGIAdIQzC8lgNJF/ANQlYjxX7KV50I5vYdB0P/Kmk3Iu4AAAAASUVORK5CYII=",
+  "iconSize": [24, 24],
+});
+        
+    
+            marker_a82f36c47f38e372b4b81a2be36f9dea.bindTooltip(
+                `<div>
+                     <b>Parking Space</b><br><b>Vehicles Allowed:</b>	 Motorcycles only
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a82f36c47f38e372b4b81a2be36f9dea.setIcon(icon_6d76a36b0dba880fc888045f8fe05547);
+            
+    
+            geo_json_8e66b89bef35cf54ca30057b32e04da6.addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
         
     
 
-        function geo_json_2612731a51dca15132f3df0e63f1b918_onEachFeature(feature, layer) {
+        function geo_json_7ab2d34ba035fdfd89034eb66009c015_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_2612731a51dca15132f3df0e63f1b918 = L.geoJson(null, {
-                onEachFeature: geo_json_2612731a51dca15132f3df0e63f1b918_onEachFeature,
+        var geo_json_7ab2d34ba035fdfd89034eb66009c015 = L.geoJson(null, {
+                onEachFeature: geo_json_7ab2d34ba035fdfd89034eb66009c015_onEachFeature,
             
             ...{
   "weight": 0,
@@ -310,16 +362,16 @@
 }
         });
 
-        function geo_json_2612731a51dca15132f3df0e63f1b918_add (data) {
-            geo_json_2612731a51dca15132f3df0e63f1b918
+        function geo_json_7ab2d34ba035fdfd89034eb66009c015_add (data) {
+            geo_json_7ab2d34ba035fdfd89034eb66009c015
                 .addData(data);
         }
-            geo_json_2612731a51dca15132f3df0e63f1b918_add({"bbox": [124.65682469, 8.48518344, 124.65699568, 8.48542982], "features": [{"bbox": [124.65682469, 8.48518344, 124.65699568, 8.48542982], "geometry": {"coordinates": [[[124.65682469, 8.48540031], [124.65693902, 8.48542982], [124.65699568, 8.48522257], [124.65689812, 8.48518344], [124.65682469, 8.48540031]]], "type": "Polygon"}, "id": "0", "properties": {"@id": "way/427550449", "Estimated Capacity": "100", "Has backrest": "No", "Has roofing": "Yes", "addr:housenumber": "28", "addr:place": "University of Science and Technology of Southern Philippines"}, "type": "Feature"}], "type": "FeatureCollection"});
-        geo_json_2612731a51dca15132f3df0e63f1b918.setStyle(function(feature) {return feature.properties.style;});
+            geo_json_7ab2d34ba035fdfd89034eb66009c015_add({"bbox": [124.65682469, 8.48518344, 124.65699568, 8.48542982], "features": [{"bbox": [124.65682469, 8.48518344, 124.65699568, 8.48542982], "geometry": {"coordinates": [[[124.65682469, 8.48540031], [124.65693902, 8.48542982], [124.65699568, 8.48522257], [124.65689812, 8.48518344], [124.65682469, 8.48540031]]], "type": "Polygon"}, "id": "0", "properties": {"@id": "way/427550449", "Estimated Capacity": "100", "Has backrest": "No", "Has roofing": "Yes", "addr:housenumber": "28", "addr:place": "University of Science and Technology of Southern Philippines"}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_7ab2d34ba035fdfd89034eb66009c015.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_2612731a51dca15132f3df0e63f1b918.bindTooltip(
+    geo_json_7ab2d34ba035fdfd89034eb66009c015.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -354,11 +406,440 @@
 });
                      
     
-            geo_json_2612731a51dca15132f3df0e63f1b918.addTo(map_458e3cfddad6bc3639849db7b65befab);
+            geo_json_7ab2d34ba035fdfd89034eb66009c015.addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
         
     
-            var geo_json_c4b9ac6864b384564aea72a3b9fddfafsearchControl = new L.Control.Search({
-                layer: geo_json_c4b9ac6864b384564aea72a3b9fddfaf,
+            var feature_group_251d8d01d389061e9598403f16aceaed = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_0b64dc7d43b1dfb6ca8df691d3a56ab6 = L.marker(
+                [8.48595509, 124.6562165],
+                {
+}
+            ).addTo(feature_group_251d8d01d389061e9598403f16aceaed);
+        
+    
+            var icon_1144b80e50e4fba106677adf1bc02900 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "print",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0b64dc7d43b1dfb6ca8df691d3a56ab6.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Services</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Document printing</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0b64dc7d43b1dfb6ca8df691d3a56ab6.setIcon(icon_1144b80e50e4fba106677adf1bc02900);
+            
+    
+            var marker_c39376effa81646ca2864693e92d773b = L.marker(
+                [8.48563409, 124.65581477],
+                {
+}
+            ).addTo(feature_group_251d8d01d389061e9598403f16aceaed);
+        
+    
+            marker_c39376effa81646ca2864693e92d773b.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Services</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Document printing</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c39376effa81646ca2864693e92d773b.setIcon(icon_1144b80e50e4fba106677adf1bc02900);
+            
+    
+            var marker_5a0d388a33e3c5c5818060eb5a87a956 = L.marker(
+                [8.48573225, 124.65728939],
+                {
+}
+            ).addTo(feature_group_251d8d01d389061e9598403f16aceaed);
+        
+    
+            marker_5a0d388a33e3c5c5818060eb5a87a956.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Services</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Document printing</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a0d388a33e3c5c5818060eb5a87a956.setIcon(icon_1144b80e50e4fba106677adf1bc02900);
+            
+    
+            feature_group_251d8d01d389061e9598403f16aceaed.addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
+        
+    
+            var feature_group_2d7b2eb9fc48e58ae944ce6f6cf201b0 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_ab2f5bc1464bc69e1b0c80b24a6359c7 = L.marker(
+                [8.485127, 124.65642],
+                {
+}
+            ).addTo(feature_group_2d7b2eb9fc48e58ae944ce6f6cf201b0);
+        
+    
+            var icon_aef656d66a56dd27bee23dfca85bb11e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ab2f5bc1464bc69e1b0c80b24a6359c7.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Landmarks</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>I <3 USTP</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ab2f5bc1464bc69e1b0c80b24a6359c7.setIcon(icon_aef656d66a56dd27bee23dfca85bb11e);
+            
+    
+            var marker_51a6ac053af97f21edaa169da15842d4 = L.marker(
+                [8.486051, 124.656321],
+                {
+}
+            ).addTo(feature_group_2d7b2eb9fc48e58ae944ce6f6cf201b0);
+        
+    
+            marker_51a6ac053af97f21edaa169da15842d4.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Landmarks</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Philippine Flag</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_51a6ac053af97f21edaa169da15842d4.setIcon(icon_aef656d66a56dd27bee23dfca85bb11e);
+            
+    
+            var marker_867016cd33378052e2dc05e22936a9cb = L.marker(
+                [8.485931, 124.65715],
+                {
+}
+            ).addTo(feature_group_2d7b2eb9fc48e58ae944ce6f6cf201b0);
+        
+    
+            marker_867016cd33378052e2dc05e22936a9cb.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Landmarks</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Statue</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_867016cd33378052e2dc05e22936a9cb.setIcon(icon_aef656d66a56dd27bee23dfca85bb11e);
+            
+    
+            feature_group_2d7b2eb9fc48e58ae944ce6f6cf201b0.addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
+        
+    
+            var feature_group_fa631fd2600ec548c7ffe229a2a5521b = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_5b6e98fa5622661fa06e9ce36a1f5ab0 = L.marker(
+                [8.48633475, 124.65733498],
+                {
+}
+            ).addTo(feature_group_fa631fd2600ec548c7ffe229a2a5521b);
+        
+    
+        var icon_99aa4a6ebe5da703e85c41b14631c44f = L.icon({
+  "iconUrl": "data:image/png;base64,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",
+  "iconSize": [24, 24],
+});
+        
+    
+            marker_5b6e98fa5622661fa06e9ce36a1f5ab0.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Public Restrooms</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Male & Female restroom</span>
+                    <span>1-4</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b6e98fa5622661fa06e9ce36a1f5ab0.setIcon(icon_99aa4a6ebe5da703e85c41b14631c44f);
+            
+    
+            var marker_8cd9aa0de5836ff73058acb015ae4f83 = L.marker(
+                [8.4859259, 124.65651641],
+                {
+}
+            ).addTo(feature_group_fa631fd2600ec548c7ffe229a2a5521b);
+        
+    
+            marker_8cd9aa0de5836ff73058acb015ae4f83.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Public Restrooms</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Male Restroom</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cd9aa0de5836ff73058acb015ae4f83.setIcon(icon_99aa4a6ebe5da703e85c41b14631c44f);
+            
+    
+            var marker_a04057df0e86062b9f776257345f8e06 = L.marker(
+                [8.48601875, 124.65674758],
+                {
+}
+            ).addTo(feature_group_fa631fd2600ec548c7ffe229a2a5521b);
+        
+    
+            marker_a04057df0e86062b9f776257345f8e06.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Public Restrooms</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Female Restroom</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a04057df0e86062b9f776257345f8e06.setIcon(icon_99aa4a6ebe5da703e85c41b14631c44f);
+            
+    
+            var marker_bfbb15b405e0c0fd25b80f312979f3e0 = L.marker(
+                [8.48652, 124.655691],
+                {
+}
+            ).addTo(feature_group_fa631fd2600ec548c7ffe229a2a5521b);
+        
+    
+            marker_bfbb15b405e0c0fd25b80f312979f3e0.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Public Restrooms</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Male Restroom</span>
+                    <span>1, 4</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bfbb15b405e0c0fd25b80f312979f3e0.setIcon(icon_99aa4a6ebe5da703e85c41b14631c44f);
+            
+    
+            var marker_71059484ea7cafdb480a7d552d22d0a5 = L.marker(
+                [8.486624, 124.655989],
+                {
+}
+            ).addTo(feature_group_fa631fd2600ec548c7ffe229a2a5521b);
+        
+    
+            marker_71059484ea7cafdb480a7d552d22d0a5.bindTooltip(
+                `<div>
+                     
+        <div style="width: fit-content; text-align: left;">
+            <div style="text-decoration: underline; font-weight: bold;">Public Restrooms</div><br>
+            <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;">
+                <div style="display: flex; flex-direction: column;">
+                    <span><b>Description</b></span>
+                    <span><b>Level</b></span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <span>Female Restroom</span>
+                    <span>1, 4</span>
+                </div>
+            </div>
+        </div>
+        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_71059484ea7cafdb480a7d552d22d0a5.setIcon(icon_99aa4a6ebe5da703e85c41b14631c44f);
+            
+    
+            feature_group_fa631fd2600ec548c7ffe229a2a5521b.addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
+        
+    
+            var geo_json_9b0578572c133819ec8dbb91dd3a030dsearchControl = new L.Control.Search({
+                layer: geo_json_9b0578572c133819ec8dbb91dd3a030d,
                 
                 propertyName: 'name',
                 
@@ -373,25 +854,25 @@
                 }
             
                 });
-                geo_json_c4b9ac6864b384564aea72a3b9fddfafsearchControl.on('search:locationfound', function(e) {
-                    geo_json_c4b9ac6864b384564aea72a3b9fddfaf.setStyle(function(feature){
+                geo_json_9b0578572c133819ec8dbb91dd3a030dsearchControl.on('search:locationfound', function(e) {
+                    geo_json_9b0578572c133819ec8dbb91dd3a030d.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                geo_json_c4b9ac6864b384564aea72a3b9fddfafsearchControl.on('search:collapsed', function(e) {
-                        geo_json_c4b9ac6864b384564aea72a3b9fddfaf.setStyle(function(feature){
+                geo_json_9b0578572c133819ec8dbb91dd3a030dsearchControl.on('search:collapsed', function(e) {
+                        geo_json_9b0578572c133819ec8dbb91dd3a030d.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_458e3cfddad6bc3639849db7b65befab.addControl( geo_json_c4b9ac6864b384564aea72a3b9fddfafsearchControl );
+            map_31e74129ca8292fe177d3d901cfe2a9a.addControl( geo_json_9b0578572c133819ec8dbb91dd3a030dsearchControl );
 
         
     
-            var geo_json_c4b9ac6864b384564aea72a3b9fddfafsearchControl = new L.Control.Search({
-                layer: geo_json_c4b9ac6864b384564aea72a3b9fddfaf,
+            var geo_json_9b0578572c133819ec8dbb91dd3a030dsearchControl = new L.Control.Search({
+                layer: geo_json_9b0578572c133819ec8dbb91dd3a030d,
                 
                 propertyName: 'addr:housenumber',
                 
@@ -406,43 +887,46 @@
                 }
             
                 });
-                geo_json_c4b9ac6864b384564aea72a3b9fddfafsearchControl.on('search:locationfound', function(e) {
-                    geo_json_c4b9ac6864b384564aea72a3b9fddfaf.setStyle(function(feature){
+                geo_json_9b0578572c133819ec8dbb91dd3a030dsearchControl.on('search:locationfound', function(e) {
+                    geo_json_9b0578572c133819ec8dbb91dd3a030d.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                geo_json_c4b9ac6864b384564aea72a3b9fddfafsearchControl.on('search:collapsed', function(e) {
-                        geo_json_c4b9ac6864b384564aea72a3b9fddfaf.setStyle(function(feature){
+                geo_json_9b0578572c133819ec8dbb91dd3a030dsearchControl.on('search:collapsed', function(e) {
+                        geo_json_9b0578572c133819ec8dbb91dd3a030d.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_458e3cfddad6bc3639849db7b65befab.addControl( geo_json_c4b9ac6864b384564aea72a3b9fddfafsearchControl );
+            map_31e74129ca8292fe177d3d901cfe2a9a.addControl( geo_json_9b0578572c133819ec8dbb91dd3a030dsearchControl );
 
         
     
-            var layer_control_769b2fe8042da2419085866e339c7c70_layers = {
+            var layer_control_1e9dcb1b8cfb09841e3a2ab7fed7e09a_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_747b429ef9cf4cc1d650ec0939b9add7,
-                    "cartodbpositron" : tile_layer_9bf34c746e5262dceb13884e5e8950c3,
+                    "openstreetmap" : tile_layer_874cc0ce801c87ed576572a1b43192fe,
+                    "cartodbpositron" : tile_layer_c0041a11beecd3a7a3067918264655f2,
                 },
                 overlays :  {
-                    "Buildings" : geo_json_c4b9ac6864b384564aea72a3b9fddfaf,
-                    "Parking Spaces" : geo_json_e9a4e13cd3161f1dcf583b82f06183bf,
-                    "Benches" : geo_json_2612731a51dca15132f3df0e63f1b918,
+                    "Buildings" : geo_json_9b0578572c133819ec8dbb91dd3a030d,
+                    "Parking Spaces" : geo_json_8e66b89bef35cf54ca30057b32e04da6,
+                    "Benches" : geo_json_7ab2d34ba035fdfd89034eb66009c015,
+                    "Services" : feature_group_251d8d01d389061e9598403f16aceaed,
+                    "Landmarks" : feature_group_2d7b2eb9fc48e58ae944ce6f6cf201b0,
+                    "Public Restrooms" : feature_group_fa631fd2600ec548c7ffe229a2a5521b,
                 },
             };
-            let layer_control_769b2fe8042da2419085866e339c7c70 = L.control.layers(
-                layer_control_769b2fe8042da2419085866e339c7c70_layers.base_layers,
-                layer_control_769b2fe8042da2419085866e339c7c70_layers.overlays,
+            let layer_control_1e9dcb1b8cfb09841e3a2ab7fed7e09a = L.control.layers(
+                layer_control_1e9dcb1b8cfb09841e3a2ab7fed7e09a_layers.base_layers,
+                layer_control_1e9dcb1b8cfb09841e3a2ab7fed7e09a_layers.overlays,
                 {
   "position": "topright",
   "collapsed": true,
   "autoZIndex": true,
 }
-            ).addTo(map_458e3cfddad6bc3639849db7b65befab);
+            ).addTo(map_31e74129ca8292fe177d3d901cfe2a9a);
 
         
 </script>

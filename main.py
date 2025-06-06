@@ -95,7 +95,7 @@ def main():
     favicon_link = soup.new_tag(
         "link",
         rel="icon",
-        href="https://raw.githubusercontent.com/ustp-party/map-folium/refs/heads/master/public/ustp.map.party-64x64.png",
+        href="./public/ustp.map.party-64x64.png",
         type="image/png",
     )
     soup.head.append(favicon_link)
