@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-06-05T14:51:41Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550449",
+        "addr:housenumber": "28",
+        "addr:place": "University of Science and Technology of Southern Philippines",
+        "Estimated Capacity": "100",
+        "Has roofing": "Yes",
+        "Has backrest": "No"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [124.65682469, 8.48540031],
+                [124.65693902, 8.48542982],
+                [124.65699568, 8.48522257],
+                [124.65689812, 8.48518344],
+                [124.65682469, 8.48540031]
+            ]
+        ]
+        }
+    }
+  ]
+
+}

@@ -1,0 +1,116 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-06-05T14:51:41Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550470",
+        "addr:place": "University of Science and Technology of Southern Philippines",
+        "amenity": "parking",
+        "vehicles": "All"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              124.6568904,
+              8.4851477
+            ],
+            [
+              124.6569176,
+              8.4850725
+            ],
+            [
+              124.6569506,
+              8.4849764
+            ],
+            [
+              124.6569618,
+              8.4849445
+            ],
+            
+            [
+              124.6570897,
+              8.4849226
+            ],
+            [124.65712812, 8.48491584],
+            [124.65710834, 8.48510220],
+            [124.65704061, 8.48509755],
+            [
+              124.6570199,
+              8.4852078
+            ],
+            
+            [
+              124.6570173,
+              8.485194
+            ],
+        
+            [
+              124.6570075,
+              8.4851872
+            ],
+            [
+              124.6568904,
+              8.4851477
+            ]
+          ]
+        ]
+      },
+      "id": "way/427550470"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/427550471",
+          "addr:place": "University of Science and Technology of Southern Philippines",
+          "amenity": "parking",
+          "vehicles": "Motorcycles only"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                124.65627,
+                8.48484
+              ],
+              [
+                124.65624634,
+                8.48502792
+              ],
+              [
+                124.65643621,
+                8.48503355
+              ],
+              [
+                124.6564357,
+                8.4849805
+              ],
+              [
+                124.65644147,
+                8.48493009
+              ],
+              [
+                124.65646259,
+                8.48487206
+              ],
+              [
+                124.65646259,
+                8.48479384
+              ],
+              [
+                124.65627,
+                8.48484
+              ]
+            ]
+          ]
+        }
+    }
+  ]
+
+}
